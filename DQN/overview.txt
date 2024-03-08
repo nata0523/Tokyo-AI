@@ -1,1 +1,7 @@
 DQNを使って強化学習の実装を行った
+fileの説明
+evaluate.ipynb:episodesにおける学習数の違いによりpairの作りやすさがどのように変化したかを調査した。
+0学習のモデルと比較して、学習を行ったモデルは2倍近くpairを作りやすかった。
+exp.ipynb:environmentとagentなどを用いて、1万回の学習を行った。
+models.zip:学習済みのモデルのパラメータが保存されている。
+train.ipynb:exp.ipynbで学習したモデルにさらに学習を行わせた。
